@@ -5,9 +5,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 </head>
 
-<body background="assets/images/background1.png">
+<!-- <body background="assets/images/background1.png"> -->
 <!-- <body background="assets/images/background2.png"> -->
 <!-- <body background="assets/images/background3.png"> -->
+<!-- <body background="assets/images/background4.png"> -->
+<body background="assets/images/background5.png">
         
     <header>
     <!--Name and Nav Bar-->
@@ -15,19 +17,45 @@
             <h1>Neri Stec</h1>
     
                 <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
                 </nav>
         </div>
     
     </header>
 
-<section class="contact">
+<!--Input form for contacting-->
 
-    <!--Form with Name, Email, Message, and Submit button-->
+        <section class="contact-form">
 
-</section>
+            <div class="h2-box">
+
+                    <h2>Contact</h2>
+
+            </div>
+            
+
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" placeholder="John Smith">
+
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" name="Email" placeholder="example@gmail.com">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+        </section>
 
 <footer>
         <!--Copyright?-->

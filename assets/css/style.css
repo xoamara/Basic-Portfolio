@@ -1,8 +1,9 @@
+/* Contact HTML Style Section */
+
 header {
     background-color: #ffffff;
     border-color: #cccccc;
     margin: auto;
-    /* width: 960px; */
 }
 
 .navbar {
@@ -17,6 +18,28 @@ nav {
     padding: 30px 0px 0px 0px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    border-right: 1px solid #777777;
+    float: right;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:first-child {
+    border-right: none;
+}
+
 h1 {
    padding: 20px;
    text-align: center;
@@ -27,6 +50,16 @@ h1 {
    display: inline-block;
    margin: 0;
 
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2-box {
+    border-bottom: 3px inset #E5E5E5;
+    
 }
 
 body {
@@ -57,4 +90,42 @@ p {
 footer {
     background-color: #666666;
     clear: both;
+}
+
+/* Contact HTML Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add another color */
+
+input[type=submit]:hover {
+    background-color: #1C403E;
+
+}
+
+/* Add a background color and some padding aroudn the form */
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
 }
