@@ -76,7 +76,7 @@ section {
     border-color: #dddddd;
     width: 960px;
     margin: 30px auto 0 auto;
-    padding: 10px 40px 0 20px;
+    padding: 10px 30px 30px 30px;
     box-sizing: border-box;
     clear: both;
 }
@@ -101,9 +101,19 @@ p {
 }
 
 footer {
-    height: 20px;
+    height: 40px;
     background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+p.copyright {
     text-align: center;
+    color: whitesmoke;
+    font-size: x-small;
+    padding: 20px;
 }
 
 /* Contact HTML Style inputs with type="text", select elements and textareas */
