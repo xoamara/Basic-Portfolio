@@ -96,8 +96,13 @@ img {
 }
 
 p {
+<<<<<<< HEAD
     /* line-height: 32px; */
     padding-top: 14px;
+=======
+    line-height: 1.5;
+    padding-top: 20px;
+>>>>>>> 036d353fe2121e6e690371f6027334af5a20aa99
 }
 
 footer {
@@ -157,6 +162,7 @@ input[type=submit]:hover {
     overflow: auto;
 }
 
+<<<<<<< HEAD
 h3 {
     position: absolute;
     bottom: 10px;
@@ -167,6 +173,8 @@ h3 {
     margin: 0;
     font: 14px Sans-Serif;
 }
+=======
+>>>>>>> 036d353fe2121e6e690371f6027334af5a20aa99
 
 .Portfolio {
     overflow: auto;
@@ -196,12 +204,3 @@ h3 {
 
 
 
-/* h3 {
-    width: 33%;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: white;
-    display: inline-block;
-    font-size: 1.7em;
-    font-weight: bold;
-} */
